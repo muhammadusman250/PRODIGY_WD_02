@@ -127,7 +127,7 @@ body {
         margin: 50px;
     }
     #board{
-        width: 350px;
+        width: 370px;
     }
     .square{
         width: 100px;
@@ -156,7 +156,7 @@ body {
         top: -60px;
     }
     #board{
-        width: 290px;
+        width: 315px;
     }
     .square{
         width: 80px;
