@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,19 +14,16 @@ body {
     justify-content: center;
     flex-direction: column;
     animation: bgchange 2s infinite alternate;
-    background-blend-mode: darken;
+    background-blend-mode: darken;    
 }
-
 @keyframes bgchange {
-    0% {
+    0%{
         background-color: #0eaeee;
     }
-
-    50% {
+    50%{
         background-color: #68e47c;
     }
-
-    100% {
+    100%{
         background-color: #cf855a;
     }
 }
@@ -40,7 +36,7 @@ body {
     margin: 55px;
     border-radius: 20px;
     padding: 0 20px;
-    background: linear-gradient(rgba(55, 132, 174, 0.5), rgba(55, 132, 174, 0.5));
+    background: linear-gradient(rgba(55, 132, 174, 0.5),rgba(55, 132, 174, 0.5));
 }
 
 
@@ -67,23 +63,19 @@ body {
 }
 
 @keyframes colorchange {
-    0% {
+    0%{
         background-color: #8120cf;
     }
-
-    25% {
+    25%{
         background-color: #4441c5;
     }
-
-    50% {
+    50%{
         background-color: #20cfcf;
     }
-
-    75% {
+    75%{
         background-color: #20cf6f;
     }
-
-    100% {
+    100%{
         background-color: #afcf20;
     }
 }
@@ -107,7 +99,7 @@ body {
     margin: 8px;
     text-align: center;
     color: #6caad0;
-
+    
 }
 
 #reset {
@@ -123,72 +115,62 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
-
-#reset:hover {
+#reset:hover{
     color: black;
     background-color: #6caad0;
 }
 
 @media only screen and (max-width: 694px) {
-
-    .container {
+    
+    .container{
         width: 490px;
         padding: 25px;
-    }
-
-    .heading h1 {
+    }  
+    .heading h1{
         font-size: 40px;
         margin: 50px;
     }
-
-    #board {
+    #board{
         width: 370px;
     }
-
-    .square {
+    .square{
         width: 100px;
         height: 100px;
         font-size: 70px;
         text-align: center;
     }
-
-    #reset {
+    #reset{
         margin-top: 30px;
         padding: 10px 10px;
         font-size: 20px;
-    }
+    }  
 }
-
 @media only screen and (max-width: 508px) {
-
-    .container {
+    
+    .container{
         padding: 20px;
         width: 340px;
         position: relative;
-        top: -50px;
-    }
-
-    .heading h1 {
+        top: -5%;
+    }  
+    .heading h1{
         font-size: 40px;
         text-align: center;
         position: relative;
-        top: -60px;
+        top: -5%;
     }
-
-    #board {
+    #board{
         width: 315px;
     }
-
-    .square {
+    .square{
         width: 80px;
         height: 80px;
         font-size: 57px;
         text-align: center;
     }
-
-    #reset {
+    #reset{
         margin-top: 20px;
         padding: 9px 13px;
         font-size: 20px;
-    }
+    }  
 }
